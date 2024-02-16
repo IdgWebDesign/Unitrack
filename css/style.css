@@ -1,0 +1,1224 @@
+
+@font-face {
+    font-family: "FlamaCondensedRegular";
+    src: url(../fonts/FlamaCondensed-Light.otf);
+}
+
+@font-face {
+    font-family: "FlamaUltracondensedRegular";
+    src: url(../fonts/FlamaUltracondensed-Light.otf);
+}
+
+@font-face {
+    font-family: "FlamaCondensedM";
+    src: url(../fonts/FlamaCondensed-Medium.otf);
+}
+
+@font-face {
+    font-family: "FlamaCondensedSB";
+    src: url(../fonts/FlamaCondensed-Semibold.otf);
+}
+
+@font-face {
+    font-family: "FlamaCondensedBook";
+    src: url(../fonts/FlamaCondensed-Book.otf);
+}
+
+@font-face {
+    font-family: "FlamaBlack";
+    src: url(../fonts/Flama-Black.otf);
+}
+
+@font-face {
+    font-family: "FlamaEB";
+    src: url(../fonts/Flama-Extrabold.otf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 9rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.containerNav{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    
+    height: 100%;
+    margin: auto;
+}
+
+.logo{
+    height: 100%;
+
+}
+
+.logo img{
+    height: 100%;
+    object-fit: contain;
+    -webkit-filter: drop-shadow(10px 4px 12px #22222283);
+  filter: drop-shadow(10px 4px 12px #22222283);
+}
+
+.itemsNav{
+    display: flex;
+    font-family: "FlamaCondensedRegular";
+    flex:1;
+    align-items: center;
+    margin: 0% 6%;
+}
+
+.itemsNav a, .itemsNav p {
+    font-size: 1.7em;
+    color: white;
+    margin: 0% 0.8%;
+}
+
+.redesNav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0% 6%;
+}
+
+.redesNav a{
+    width: 1.1em;
+    height: 1.1em;
+    margin: 0% 2%;
+}
+
+.redesNav a img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.5;
+    
+}
+
+#home{
+    height: 1000px;
+    width: 100%;
+    
+}
+
+
+.mySwiper{
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-slide{
+    position: relative;
+}
+
+.banner_01{
+    background-image: url(../img/banner_01.png);
+    background-position: center center;
+}
+
+#camion{
+    position: absolute;
+    top: 16%;
+    left: 1%;
+}
+
+#cartel{
+    position: absolute;
+    top: 18%;
+    right: 12%;
+    -webkit-filter: drop-shadow(10px 4px 12px #22222283);
+  filter: drop-shadow(10px 4px 12px #22222283);
+  width: 40em;
+  
+  object-fit: contain;
+}
+
+#num01{
+    position: absolute;
+    bottom: 6%;
+    left: 8%;
+    height: 21em;
+    object-fit: contain;
+}
+
+
+.banner_02{
+    background-image: url(../img/banner_02.png);
+    background-position: center center;
+}
+
+#camion02{
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    width: 110em;
+    object-fit: contain;
+}
+
+#cartel02{
+    position: absolute;
+    top: 21%;
+    left: 20%;
+}
+
+#num02{
+    position: absolute;
+    right: 11%;
+    bottom: 5%;
+    height: 23em;
+}
+
+.banner_03{
+    background-image: url(../img/banner_03.png);
+    background-position: center center;
+}
+
+#cartel03{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+
+#num03{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+}
+
+#empresa{
+    background-color: white;
+}
+
+.containerEmpresa{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.titleEmpresa{
+    padding:0.7% 7%;
+    background: rgb(44,92,162);
+background: linear-gradient(49deg, rgba(44,92,162,1) 0%, rgba(22,43,107,1) 54%);
+    border-radius: 0px 0px 20px 20px;
+    -webkit-transform: skew(-15deg); 
+   -moz-transform: skew(-15deg); 
+   -o-transform: skew(-15deg);
+   margin-bottom: 4%;
+   width: fit-content;
+}
+
+.titleEmpresa h2{
+    -webkit-transform: skew(15deg); 
+   -moz-transform: skew(15deg); 
+   -o-transform: skew(15deg);
+   color: white;
+    font-family: "FlamaUltracondensedRegular";
+    font-size: 4.5em;
+    text-align: center;
+}
+
+.textEmpresa{
+    font-family: "FlamaCondensedM";
+    color: #252984;
+    text-align: center;
+    font-size: 2em;
+    width: 90%;
+}
+
+.textEmpresa span{
+    font-family: "FlamaCondensedSB";
+}
+
+.marcasEmpresa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4% 0%;
+}
+
+.caracteristicasEmpresa{
+    width: 100%;
+}
+
+.titleCaracts{
+    font-family: "FlamaCondensedM";
+    color: #252984;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1.5%;
+}
+
+.containerCaracts{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+    width: 100%;
+    background: rgb(44,92,162);
+    background: radial-gradient(circle, rgba(44,92,162,1) 0%, rgba(26,53,118,1) 39%);
+    padding: 1%;
+    border-radius: 30px 30px 20px 20px;
+    -webkit-transform: skew(-15deg); 
+   -moz-transform: skew(-15deg); 
+   -o-transform: skew(-15deg);
+   color: white;
+}
+
+.itemCaracts{
+    padding: 2%;
+    width: 33.33%;
+    height: 100%;
+    -webkit-transform: skew(15deg); 
+    -moz-transform: skew(15deg); 
+    -o-transform: skew(15deg);
+}
+
+.itemCaracts h3{
+    font-family: "FlamaCondensedSB";
+    font-size: 1.8em;
+}
+
+.itemCaracts p{
+ font-family: "FlamaCondensedBook";
+ font-size: 1.5em;
+}
+
+.it1{
+    text-align: right;
+}
+
+.it2{
+    text-align: center;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
+.it3{
+    text-align: left;
+}
+
+#productos{
+    background-color: #d6d6d6;
+}
+
+.containerProductos{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.textZone{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alertProductos{
+    font-family: "FlamaCondensedM";
+    font-size: 1.3em;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: #00a14d;
+    text-align: center;
+}
+
+.carsRow{
+    display: flex;
+    width: 100%;
+    padding-bottom: 5%;
+    background-image: url(../img/product_bg.png);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.cr2 .containerCar img{
+    height: 25em;
+}
+
+.containerCar{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.containerCar img{
+    height: 20em;
+    object-fit: contain;
+    width: fit-content;
+}
+
+.rightCar{
+    padding-left: 4%;
+}
+
+.leftCar{
+    padding-right: 4%;
+    text-align: end;
+    align-items: end;
+}
+
+.titleCar{
+    font-family: "FlamaBlack";
+    color: #252b84;
+    font-size: 2.5em;
+    margin-bottom: 6%;
+    line-height: 100%;
+}
+
+.listaCatalogo{
+    width: 100%;
+    margin-top: 4%;
+}
+
+
+.itemCatalogo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.itemCatalogo p{
+ font-family: "FlamaEB";
+ font-size: 1em;
+ color: #635b5b;
+}
+
+.itemCatalogo img{
+    width: 1em ;
+    height: 1em !important;
+    object-fit: contain;
+}
+
+.rightItem{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.rightItem a{
+    margin-right: 2%;
+}
+
+.leftItem{
+    
+    justify-content: flex-end;
+}
+
+.leftItem a{
+    margin-left: 2%;
+}
+
+#contacto{
+     padding-top: 5%;
+     background-color: white;
+
+}
+
+.containerContacto{
+    width: 100%;
+    background-position: center 0%;
+    background-image: url(../img/bg_contacto.png);
+    background-size: 100% 100%;
+}
+
+.blueContact{
+    margin: auto;
+    width: 40em;
+    background: radial-gradient(circle, rgba(44,92,162,1) 0%, rgba(26,53,118,1) 39%);
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+}
+
+.titleContact{
+    padding: 0.7% 7%;
+    background: white;
+    border-radius: 0px 0px 20px 20px;
+    
+    width: fit-content;
+}
+
+.titleContact h2{
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -o-transform: skew(15deg);
+    color: #252b84;
+    font-family: "FlamaUltracondensedRegular";
+    font-size: 4.5em;
+    text-align: center;
+}
+
+.itemsContact{
+    padding: 5% 0%;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -o-transform: skew(15deg);
+    width: 100%;
+}
+
+.itemContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 1% 0%;
+    
+}
+
+.itemContact img{
+    width: 2em;
+    height: 2em;
+    object-fit: contain;
+    margin-right: 2%;
+    
+}
+
+.itemContact p{
+    font-family: "FlamaCondensedM";
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+}
+
+
+@media (max-width:1800px ) {
+    #camion{
+        top: 16%;
+        left: -5%;
+    }
+    
+    #cartel{
+        top: 18%;
+        right: 8%;
+      width: 40em;
+    }
+    
+    #num01{
+        bottom: 6%;
+        left: 8%;
+        height: 21em;
+    }
+}
+@media (max-width:1600px ) {
+    #camion{
+        top: 16%;
+        left: -10%;
+    }
+    
+    #cartel{
+        top: 18%;
+        right: 3%;
+      width: 40em;
+    }
+    
+    #num01{
+        bottom: 6%;
+        left: 3%;
+        height: 21em;
+    }
+    #camion02{
+        position: absolute;
+        top: 20%;
+        left: -15%;
+        width: 110em;
+        object-fit: contain;
+    }
+    
+    #cartel02{
+        position: absolute;
+        top: 21%;
+        left: 10%;
+    }
+    
+    #num02{
+        position: absolute;
+        right: 5%;
+        bottom: 5%;
+        height: 23em;
+    }
+}
+@media (max-width:1400px ) {
+    .containerEmpresa{
+        width: 80%;
+    }
+    .titleCar{
+        font-size: 2.3em;
+    }
+    .containerCar img {
+        height: 18em;
+        object-fit: contain;
+        width: fit-content;
+    }
+    .cr2 .containerCar img {
+        height: 23em;
+    }
+    .itemCatalogo p {
+        font-family: "FlamaEB";
+        font-size: 0.9em;
+        color: #635b5b;
+    }
+    .itemCatalogo img {
+        width: 0.9em;
+        height: 0.9em !important;
+        object-fit: contain;
+    }
+    .blueContact{
+        width: 35em;
+    }
+    #camion{
+        top: 25%;
+        left: -10%;
+        width: 85em;
+        object-fit: contain;
+    }
+    
+    #cartel{
+        top: 18%;
+        right: 2%;
+      width: 35em;
+    }
+    
+    #num01{
+        bottom: 6%;
+        left: 1%;
+        height: 16em;
+    }
+    #camion02{
+        position: absolute;
+        top: 20%;
+        left: -25%;
+        width: 110em;
+        object-fit: contain;
+    }
+    
+    #cartel02{
+        position: absolute;
+        top: 21%;
+        left: 2%;
+    }
+    
+    #num02{
+        position: absolute;
+        right: 5%;
+        bottom: 5%;
+        height: 23em;
+    }
+
+    #cartel03{
+        position: absolute;
+        top: 10%;
+        right: 10%;
+    }
+    
+    #num03{
+        position: absolute;
+        bottom: 0%;
+        left: 10%;
+    }
+    
+  }
+
+  @media (max-width:1100px ) {
+    .titleEmpresa h2{
+        font-size: 4.2em;
+    }
+    .textEmpresa{
+        font-size: 1.9em;
+    }
+    .marcasEmpresa img{
+        width: 10em;
+        height: 10em;
+        object-fit: contain;
+    }
+    .titleCaracts{
+        font-size: 2.8em;
+    }
+    .itemCaracts h3{
+        font-size: 1.6em;    
+    }
+    .itemCaracts p{
+        font-size: 1.4em;
+    }
+    .textEmpresa{
+        width: 100%;
+    }
+    .alertProductos{
+        font-size: 1.2em;
+    }
+    .titleCar{
+        font-size: 2em;
+    }
+    .containerCar img {
+        height: 16em;
+        object-fit: contain;
+        width: fit-content;
+    }
+    .cr2 .containerCar img {
+        height: 21em;
+    }
+    .itemCatalogo p {
+        font-family: "FlamaEB";
+        font-size: 0.8em;
+        color: #635b5b;
+    }
+    .itemCatalogo img {
+        width: 0.8em;
+        height: 0.8em !important;
+        object-fit: contain;
+    }
+    .titleContact h2 {
+        -webkit-transform: skew(15deg);
+        -moz-transform: skew(15deg);
+        -o-transform: skew(15deg);
+        color: #252b84;
+        font-family: "FlamaUltracondensedRegular";
+        font-size: 4.2em;
+        text-align: center;
+    }
+    .blueContact{
+        width: 30em;
+    }
+    .itemContact p{
+        font-size: 1.4em;
+    }
+    .itemContact img {
+        width: 1.8em;
+        height: 1.8em;
+        object-fit: contain;
+        margin-right: 2%;
+    }
+
+    .containerNav{
+        width: 80%;
+    }
+    #home{
+        height: 900px;
+    }
+    #camion{
+        top: 30%;
+        left: -10%;
+        width: 75em;
+        object-fit: contain;
+    }
+    
+    #cartel{
+        top: 20%;
+        right: 2%;
+      width: 30em;
+    }
+    
+    #num01{
+        bottom: 6%;
+        left: 1%;
+        height: 13em;
+    }
+    #camion02{
+        position: absolute;
+        top: 25%;
+        left: -25%;
+        width: 90em;
+        object-fit: contain;
+    }
+    
+    #cartel02{
+        position: absolute;
+        top: 21%;
+        left: 2%;
+        width: 25em;
+        object-fit: contain;
+    }
+    
+    #num02{
+        position: absolute;
+        right: 5%;
+        bottom: 5%;
+        height: 18em;
+        object-fit: contain;
+        
+  }
+  #cartel03{
+    position: absolute;
+    top: 20%;
+    right:5%;
+    width: 28em;
+    object-fit: contain;
+}
+
+#num03{
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    height: 30em;
+}
+}
+
+  @media (max-width:1000px ) {
+    .titleEmpresa h2{
+        font-size: 4.2em;
+    }
+    .textEmpresa{
+        font-size: 1.8em;
+    }
+    .marcasEmpresa img{
+        width: 10em;
+        height: 10em;
+        object-fit: contain;
+    }
+    .titleCaracts{
+        font-size: 2.8em;
+    }
+    .itemCaracts h3{
+        font-size: 1.5em;    
+    }
+    .itemCaracts p{
+        font-size: 1.3em;
+    }
+    .textEmpresa{
+        width: 100%;
+    }
+    .containerEmpresa{
+        width: 90%;
+    }
+    .alertProductos{
+        font-size: 1.1em;
+    }
+    .titleCar{
+        font-size: 1.8em;
+    }
+    .containerCar img {
+        height: 12em;
+        object-fit: contain;
+        width: fit-content;
+    }
+    .cr2 .containerCar img {
+        height: 17em;
+    }
+    .itemCatalogo p {
+        font-family: "FlamaEB";
+        font-size: 0.7em;
+        color: #635b5b;
+    }
+    .itemCatalogo img {
+        width: 0.7em;
+        height: 0.7em !important;
+        object-fit: contain;
+    }
+    .blueContact{
+        width: 30em;
+    }
+    .itemContact p{
+        font-size: 1.3em;
+    }
+    .itemContact img {
+        width: 1.7em;
+        height: 1.7em;
+        object-fit: contain;
+        margin-right: 2%;
+    }
+    .containerNav{
+        width: 80%;
+    }
+    nav{
+        height: 8rem;
+    }
+    .itemsNav a, .itemsNav p{
+        font-size: 1.5em;
+    }
+    #home{
+        height: 900px;
+    }
+    #camion{
+        top: 30%;
+        left: -10%;
+        width: 70em;
+        object-fit: contain;
+    }
+    
+    #cartel{
+        top: 15%;
+        right: 2%;
+      width: 30em;
+    }
+    
+    #num01{
+        bottom: 6%;
+        left: 1%;
+        height: 13em;
+    }  
+  }
+
+  
+  @media (max-width:800px ) {
+    
+  }
+
+  @media (max-width:700px ) {
+    .titleEmpresa h2{
+        font-size: 3.8em;
+    }
+    .textEmpresa{
+        font-size: 1.5em;
+    }
+    .marcasEmpresa img{
+        width: 7em;
+        height: 7em;
+        object-fit: contain;
+    }
+    .titleCaracts{
+        font-size: 2.3em;
+    }
+    .itemCaracts h3{
+        font-size: 1.2em;    
+    }
+    .itemCaracts p{
+        font-size: 1.1em;
+    }
+    .textEmpresa{
+        width: 100%;
+    }
+    .containerEmpresa{
+        width: 90%;
+    }
+    .alertProductos{
+        font-size: 1em;
+    }
+    .titleCar{
+        font-size: 1.5em;
+    }
+    .containerCar img {
+        height: 10em;
+        object-fit: contain;
+        width: fit-content;
+    }
+    .cr2 .containerCar img {
+        height: 13em;
+    }
+    .itemCatalogo p {
+        font-family: "FlamaEB";
+        font-size: 0.6em;
+        color: #635b5b;
+        line-height: 100%;
+    }
+    .itemCatalogo img {
+        width: 0.6em;
+        height: 0.6em !important;
+        object-fit: contain;
+    }
+    .titleContact h2 {
+        -webkit-transform: skew(15deg);
+        -moz-transform: skew(15deg);
+        -o-transform: skew(15deg);
+        color: #252b84;
+        font-family: "FlamaUltracondensedRegular";
+        font-size: 3.8em;
+        text-align: center;
+    }
+    .blueContact{
+        width: 30em;
+    }
+    .itemContact p{
+        font-size: 1.1em;
+    }
+    .itemContact img {
+        width: 1.5em;
+        height: 1.5em;
+        object-fit: contain;
+        margin-right: 2%;
+    }
+    .itemsContact{
+        padding: 3% 0%;
+    }
+    .itemsNav{
+        display: none;
+    }
+    .containerNav{
+        justify-content: center;
+    }
+    nav{
+        height: 7rem;
+        position: absolute;
+    }
+  }
+
+  @media (max-width:550px ) {
+    .titleEmpresa h2{
+        font-size: 3.5em;
+    }
+    .textEmpresa{
+        font-size: 1.2em;
+    }
+    .marcasEmpresa img{
+        width: 6em;
+        height: 6em;
+        object-fit: contain;
+    }
+    .titleCaracts{
+        font-size: 1.8em;
+    }
+    .itemCaracts h3{
+        font-size: 1.1em;    
+    }
+    .itemCaracts p{
+        font-size: 1em;
+    }
+    .alertProductos{
+        font-size: 0.8em;
+    }
+    .titleCar{
+        font-size: 1.2em;
+    }
+    .containerCar img {
+        height: 7em;
+        object-fit: contain;
+        width: fit-content;
+    }
+    .cr2 .containerCar img {
+        height: 10em;
+    }
+    .itemCatalogo p {
+        font-family: "FlamaEB";
+        font-size: 0.5em;
+        color: #635b5b;
+    }
+    .itemCatalogo img {
+        width: 0.5em;
+        height: 0.5em !important;
+        object-fit: contain;
+    }
+    .titleContact h2 {
+        -webkit-transform: skew(15deg);
+        -moz-transform: skew(15deg);
+        -o-transform: skew(15deg);
+        color: #252b84;
+        font-family: "FlamaUltracondensedRegular";
+        font-size: 3.5em;
+        text-align: center;
+    }
+    .blueContact{
+        width: 20em;
+    }
+    .itemContact p{
+        font-size: 0.9em;
+    }
+    .itemContact img {
+        width: 1.3em;
+        height: 1.3em;
+        object-fit: contain;
+        margin-right: 2%;
+    }
+    .itemsContact{
+        padding: 3% 0%;
+    }
+    #home{
+        height: 700px;
+    }
+    #camion{
+        top: 35%;
+        left: -30%;
+        width: 50em;
+        object-fit: contain;
+    }
+    
+    #cartel{
+        top: 20%;
+        right: 2%;
+      width: 20em;
+    }
+    
+    #num01{
+        bottom: 6%;
+        left: 1%;
+     
+        height: 10em;
+    }
+    #camion02{
+        position: absolute;
+        top: 35%;
+        left: -35%;
+        width: 50em;
+        object-fit: contain;
+    }
+    
+    #cartel02{
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        width: 17em;
+        object-fit: contain;
+    }
+    
+    #num02{
+        position: absolute;
+        right: 5%;
+        bottom: 17%;
+        height: 7em;
+        object-fit: contain;
+        
+  }
+  #cartel03{
+    position: absolute;
+    top: 20%;
+    right:20%;
+    width: 20em;
+    object-fit: contain;
+}
+
+#num03{
+    position: absolute;
+    bottom: 15%;
+    left: 23%;
+    height: 18em;
+}        
+  }
+
+  @media (max-width:450px ) {
+    .titleEmpresa h2{
+        font-size: 3em;
+    }
+    .textEmpresa{
+        font-size: 1em;
+    }
+    .marcasEmpresa img{
+        width: 5em;
+        height: 5em;
+        object-fit: contain;
+    }
+    .titleCaracts{
+        font-size: 1.5em;
+    }
+    .itemCaracts h3{
+        font-size: 0.9em;    
+    }
+    .itemCaracts p{
+        font-size: 0.8em;
+    }
+    .alertProductos{
+        font-size: 0.7em;
+  }
+  .titleCar{
+    font-size: 1.1em;
+}
+.containerCar img {
+    height: 5em;
+    object-fit: contain;
+    width: fit-content;
+}
+.cr2 .containerCar img {
+    height: 8em;
+}
+.itemCatalogo p {
+    font-family: "FlamaEB";
+    font-size: 0.6em;
+    color: #635b5b;
+}
+.itemCatalogo img {
+    width: 0.4em;
+    height: 0.4em !important;
+    object-fit: contain;
+}
+.titleContact h2 {
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -o-transform: skew(15deg);
+    color: #252b84;
+    font-family: "FlamaUltracondensedRegular";
+    font-size: 3.3em;
+    text-align: center;
+}
+.blueContact{
+    width: 15em;
+}
+.itemContact p{
+    font-size: 0.8em;
+}
+.itemContact img {
+    width: 1.1em;
+    height: 1.1em;
+    object-fit: contain;
+    margin-right: 2%;
+}
+.itemsContact{
+    padding: 3% 0%;
+}
+#camion{
+    top: 45%;
+    left: -20%;
+    width: 40em;
+    object-fit: contain;
+}
+
+#cartel{
+    top: 25%;
+    right: 10%;
+  width: 18em;
+}
+
+#num01{
+    bottom: 6%;
+    left: 20%;
+    height: 7em;
+}
+#camion02{
+    position: absolute;
+    top: 35%;
+    left: -35%;
+    width: 40em;
+    object-fit: contain;
+}
+
+#cartel02{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    width: 12em;
+    object-fit: contain;
+}
+
+#num02{
+    position: absolute;
+    right: 5%;
+    bottom: 30%;
+    height: 5em;
+    object-fit: contain;
+    
+}
+#cartel03{
+    position: absolute;
+    top: 20%;
+    right:10%;
+    width: 20em;
+    object-fit: contain;
+}
+
+#num03{
+    position: absolute;
+    bottom: 15%;
+    left: 23%;
+    height: 18em;
+}               
+}
